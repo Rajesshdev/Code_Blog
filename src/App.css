@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.Logo{
+    width: 75px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+  @media only screen and (max-width: 900px) {
+      .MuiImageList-root {
+        grid-template-columns:auto!important;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      .MuiImageList-root {
+        display: flex!important;
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+    .avatar{
+      width: 150px!important;
+      height: 150px!important;
+    }
+    .Author{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+    }
+    .image{
+      width: 450px!important;
+      height: 400px!important;
+      object-fit: contain!important;
+    }
